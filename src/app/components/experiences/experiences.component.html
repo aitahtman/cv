@@ -1,0 +1,44 @@
+<div fxFlex fxLayout="column" fxLayoutGap="0px" fxLayoutAlign="center " class="container">
+
+
+    <!-- content here -->
+    <div fxLayout=" wrap">
+
+        <div fxFlex="100" fxFlex.md="100" fxFlex.sm="100" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
+            <!-- material cntent here -->
+            <h1>
+                EXPERIENCES
+            </h1>
+
+
+            <mat-card *ngFor="let ex of store.cvData.experiences" class="card-experience">
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                    <mat-card-title>{{ex.title}}</mat-card-title>
+                    <mat-card-subtitle>
+                        <mat-icon aria-hidden="false" aria-label="date icon">date_range</mat-icon>
+                        <span class="text-primary" style="margin-right: 10px;">
+                            {{ex.period}}
+                        </span>
+                        <mat-icon aria-hidden="false" aria-label="home icon">home</mat-icon>
+
+                        {{ex.location}}
+
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                    <mat-list role="list">
+                        <mat-list-item role="listitem" *ngFor="let task of ex.description"> - {{task}}</mat-list-item>
+
+                    </mat-list>
+                </mat-card-content>
+                <mat-card-actions>
+
+                </mat-card-actions>
+            </mat-card>
+        </div>
+
+    </div>
+
+    <div>
+    </div>

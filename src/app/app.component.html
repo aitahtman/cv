@@ -1,3 +1,35 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<app-about></app-about>
+<!-- The content below is only a placeholder and can be replaced. -->
+<mat-toolbar *ngIf="!openedSidenav">
+
+    <mat-toolbar-row>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+        </mat-menu>
+        <span class="txt-toolbar">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span>
+        <span class="example-spacer"></span>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" [opened]="openedSidenav" class="sidenav" [fixedInViewport]="true">
+        <div fxFlex fxLayout="column" fxLayoutGap="0px" fxLayoutAlign="center center" class="container">
+            <!-- content here -->
+            <div fxLayout=" wrap">
+
+                <div fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
+                    <img [src]="store.cvData.profile.photo" alt="cv-photo" class="cv-photo">
+                </div>
+            </div>
+        </div>
+
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <app-about></app-about>
+        <app-experiences></app-experiences>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
 <router-outlet></router-outlet>

@@ -4,24 +4,23 @@
     <!-- content here -->
     <div fxLayout=" wrap">
 
-        <div  fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column"
-            style="padding: 5px;">
+        <div fxFlex="100" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
             <!-- material card here -->
             <h1>
-                {{resumeData.profile.firstname}}
-                <span class="text-primary">{{resumeData.profile.lastname}}</span>
+                {{this.store.cvData.profile.firstname}}
+                <span class="text-primary">{{this.store.cvData.profile.lastname}}</span>
             </h1>
-    
+
             <h2 class="text-primary">
-                {{resumeData.profile.title}}
+                {{this.store.cvData.profile.title}}
             </h2>
-    
+
             <div class="text-secondary sub-h">
-                {{resumeData.profile.city}} {{resumeData.profile.phone}}
-                <a [href]="resumeData.profile.mail" class='text-primary'> {{resumeData.profile.mail}}</a>
+                {{this.store.cvData.profile.city}} {{this.store.cvData.profile.phone}}
+                <a [href]="this.store.cvData.profile.mail" class='text-primary'> {{this.store.cvData.profile.mail}}</a>
             </div>
         </div>
-        
+
     </div>
 
     <div>

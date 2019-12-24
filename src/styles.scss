@@ -13,3 +13,35 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+
+
+.container {
+    height: 100vh
+}
+
+h1 {
+    font-family: "Cairo";
+    font-size: 3rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Cairo";
+    font-size: 1.5rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.text-primary {
+    color: #70454F;
+}
+
+.sub-h {
+    text-transform: uppercase;
+    font-family: "Cairo";
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+

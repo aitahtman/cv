@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import persoData from '../../../assets/data/perso.json';
-
+import { StoreService } from "../../services/store.service";
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -8,14 +7,12 @@ import persoData from '../../../assets/data/perso.json';
 })
 export class AboutComponent implements OnInit {
 
-  resumeData;
-
-  constructor() { 
-    this.resumeData = persoData;
+  constructor(public store: StoreService) {
+    console.log(this.store.cvData)
   }
 
   ngOnInit() {
-    
+
   }
 
 }

@@ -1,0 +1,23 @@
+.sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.txt-toolbar{
+    font-family: "Cairo";
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cv-photo{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    border-color: red;
+    border: .5rem solid rgba(255,255,255,.2);
+    
+}

@@ -3,10 +3,50 @@
         "firstname": "SALAH EDDINE",
         "lastname": " AIT AHTMAN ",
         "title": "Geomatics engineer",
-        "photo": "https://images.ctfassets.net/zqmhp5i8t0xx/4HeWnmvx724QqQEy6meyeM/94f90edcaee0a1aff2a46d3881356b78/avatar_ben__1_.png?w=800&q=50",
+        "photo": "./assets/img/avataaars.png",
         "city": "Avignon, France",
         "phone": "+33753318368",
         "mail": "aitahtman.salaheddine@gmail.com"
-    }
+    },
+    "social": {
+        "facebook": {
+            "name": "@seaitahtman",
+            "link": "https://web.facebook.com/salaheddine.ero"
+        },
+        "linkedin": {
+            "name": "@seaitahtman",
+            "link": "https://web.facebook.com/salaheddine.ero"
+        }
+    },
+    "experiences": [{
+            "company": "INRA",
+            "location": "Avignon, France",
+            "title": "Geomatics engineer",
+            "period": "OCT 2015 - JAN 2017",
+            "description": [
+                "Helping small team in transaction process to develop new features and fixing bugs",
+                "Setup and spread about unit test adoption in frontend codebase"
+            ]
+        },
+        {
+            "company": "INRA",
+            "location": "Avignon, France",
+            "title": "Geomatics engineer",
+            "period": "OCT 2015 - JAN 2017",
+            "description": [
+                "Helping small team in transaction process to develop new features and fixing bugs",
+                "Setup and spread about unit test adoption in frontend codebase"
+            ]
+        },
+        {
+            "company": "INRA",
+            "location": "Avignon, France",
+            "title": "Geomatics engineer",
+            "period": "OCT 2015 - JAN 2017",
+            "description": [
+                "Helping small team in transaction process to develop new features and fixing bugs",
+                "Setup and spread about unit test adoption in frontend codebase"
+            ]
+        }
+    ]
 }
-
