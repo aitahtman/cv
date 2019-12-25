@@ -3,7 +3,7 @@
 
     <mat-toolbar-row>
         <button mat-icon-button [matMenuTriggerFor]="menu">
-            <mat-icon>menu</mat-icon>
+            <img [src]="store.cvData.profile.photo" alt="cv-photo-ico" class="cv-photo-ico">
         </button>
         <mat-menu #menu="matMenu">
         </mat-menu>
@@ -18,7 +18,7 @@
             <!-- content here -->
             <div fxLayout=" wrap">
 
-                <div fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
+                <div fxFlex="25" fxLayout="column" style="padding: 5px;">
                     <img [src]="store.cvData.profile.photo" alt="cv-photo" class="cv-photo">
                 </div>
             </div>
@@ -27,8 +27,23 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-        <app-about></app-about>
-        <app-experiences></app-experiences>
+
+        <!-- ABOUT  -->
+        <div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-about></app-about>
+        </div>
+
+        <!-- EXPERIENCES -->
+        <div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-experiences></app-experiences>
+        </div>
+
+        <!-- EDUCATION -->
+        <div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-education></app-education>
+        </div>
+
+
     </mat-sidenav-content>
 </mat-sidenav-container>
 

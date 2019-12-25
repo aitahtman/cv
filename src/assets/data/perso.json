@@ -48,5 +48,27 @@
                 "Setup and spread about unit test adoption in frontend codebase"
             ]
         }
+    ],
+    "educations": [{
+            "title": "Master in geographic systems and territorial management",
+            "city": "Casablanca, Morocco",
+            "degree": "Master degree",
+            "period": "2009 - 2013",
+            "university": " Hassan II university of Casablanca"
+        },
+        {
+            "title": "Master in geographic systems and territorial management",
+            "city": "Casablanca, Morocco",
+            "degree": "Master degree",
+            "period": "2009 - 2013",
+            "university": " Hassan II university of Casablanca"
+        },
+        {
+            "title": "Master in geographic systems and territorial management",
+            "city": "Casablanca, Morocco",
+            "degree": "Master degree",
+            "period": "2009 - 2013",
+            "university": " Hassan II university of Casablanca"
+        }
     ]
 }

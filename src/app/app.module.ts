@@ -16,12 +16,14 @@ import {
   MatCardModule
 } from '@angular/material/';
 import { ExperiencesComponent } from './components/experiences/experiences.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
