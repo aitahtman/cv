@@ -10,7 +10,7 @@
             </h1>
             <mat-card *ngFor="let ex of store.cvData.educations" class="card-education">
                 <mat-card-header>
-                    <div mat-card-avatar class="example-header-image"></div>
+                    <div mat-card-avatar class="example-header-image" [style.background-image]="'url(' + ex.picture + ')'"></div>
                     <mat-card-title>{{ex.university}}</mat-card-title>
                     <mat-card-subtitle>
                         {{ex.degree}}
@@ -21,7 +21,7 @@
 
                     <mat-list>
                         <mat-list-item>
-                            {{ex.title | titlecase}}
+                            {{ex.title}}
                         </mat-list-item>
                         <mat-list-item>
                             <mat-icon aria-hidden="false" aria-label="date icon">date_range</mat-icon>

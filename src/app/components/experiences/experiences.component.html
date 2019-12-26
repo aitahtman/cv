@@ -4,7 +4,7 @@
 </h1>
 <mat-card *ngFor="let ex of store.cvData.experiences" class="card-experience">
     <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
+        <div mat-card-avatar class="example-header-image" [style.background-image]="'url(' + ex.picture + ')'"></div>
         <mat-card-title>{{ex.title}}</mat-card-title>
         <mat-card-subtitle>
             <mat-icon aria-hidden="false" aria-label="date icon">date_range</mat-icon>

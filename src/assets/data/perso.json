@@ -6,7 +6,8 @@
         "photo": "./assets/img/avataaars.png",
         "city": "Avignon, France",
         "phone": "+33753318368",
-        "mail": "aitahtman.salaheddine@gmail.com"
+        "mail": "aitahtman.salaheddine@gmail.com",
+        "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems and i am looking for new opportunities."
     },
     "social": {
         "facebook": {
@@ -18,57 +19,63 @@
             "link": "https://web.facebook.com/salaheddine.ero"
         }
     },
-    "experiences": [{
+    "experiences": [
+        {
             "company": "INRA",
+            "picture":"https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
-            "title": "Geomatics engineer",
-            "period": "OCT 2015 - JAN 2017",
+            "title": "Design and developement engineer",
+            "period": "SEP 2017 - FEB 2019",
             "description": [
-                "Helping small team in transaction process to develop new features and fixing bugs",
-                "Setup and spread about unit test adoption in frontend codebase"
+                "Design and development of  new features around the UrbanSIMUL project.",
+                "Development of methods for the integration of external data. ",
+                "Creation of APIs and services for data consumption."
             ]
         },
         {
             "company": "INRA",
+            "picture":"https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
-            "title": "Geomatics engineer",
-            "period": "OCT 2015 - JAN 2017",
+            "title": "Intership",
+            "period": "MAR 2017 - AUG 2017",
             "description": [
-                "Helping small team in transaction process to develop new features and fixing bugs",
-                "Setup and spread about unit test adoption in frontend codebase"
+                "Development of an automated method for the identification of artificial surfacesfrom the VHRS satellite images."
             ]
         },
         {
-            "company": "INRA",
-            "location": "Avignon, France",
-            "title": "Geomatics engineer",
-            "period": "OCT 2015 - JAN 2017",
+            "company": "LYDEC",
+            "picture":"http://www.brandyourmorocco.ma/wp-content/uploads/2015/09/logo-lydec.png",
+            "location": "Casablanca, Morocco",
+            "title": "Intership",
+            "period": "FEB 2016 - AUG 2016",
             "description": [
-                "Helping small team in transaction process to develop new features and fixing bugs",
-                "Setup and spread about unit test adoption in frontend codebase"
+                "Implementation of an automated process for the control and verification of the consistency of the data from the power grid of the  metropolitan area of Casablanca"
             ]
         }
     ],
     "educations": [{
-            "title": "Master in geographic systems and territorial management",
-            "city": "Casablanca, Morocco",
-            "degree": "Master degree",
-            "period": "2009 - 2013",
-            "university": " Hassan II university of Casablanca"
+            "title": "Master's degree of geomatics in environment and planning (SIGMA) ",
+            "city": "Toulouse, France",
+            "degree": "Master",
+            "period": "2016 - 2017",
+            "university": "Toulouse II university (Jean Jaurès)",
+            "picture":"https://videos.univ-tlse2.fr/videos/images/videopreview.jpg"
         },
         {
-            "title": "Master in geographic systems and territorial management",
+            "title": "Master's degree in geographic systems and territorial management (SIGGT)",
             "city": "Casablanca, Morocco",
-            "degree": "Master degree",
-            "period": "2009 - 2013",
-            "university": " Hassan II university of Casablanca"
+            "degree": "Master",
+            "period": "2014 - 2016",
+            "university": "Hassan II university of Casablanca",
+            "picture":"https://cdn-04.9rayti.com/rsrc/cache/widen_224/uploads/2012/06/logo-universite-hassan-2-casablanca-uh2c.png"
         },
         {
-            "title": "Master in geographic systems and territorial management",
+            "title": "bachelor's degree in mathematics and applications (SMA)",
             "city": "Casablanca, Morocco",
-            "degree": "Master degree",
+            "degree": "Bachelor",
             "period": "2009 - 2013",
-            "university": " Hassan II university of Casablanca"
+            "university": " Hassan II university of Casablanca",
+            "picture":"https://cdn-04.9rayti.com/rsrc/cache/widen_224/uploads/2012/06/logo-universite-hassan-2-casablanca-uh2c.png"
         }
     ]
 }
