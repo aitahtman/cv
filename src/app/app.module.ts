@@ -15,15 +15,20 @@ import {
   MatMenuModule,
   MatCardModule
 } from '@angular/material/';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { ExperiencesComponent } from './components/experiences/experiences.component';
 import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ExperiencesComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +41,8 @@ import { EducationComponent } from './components/education/education.component';
     MatListModule,
     MatToolbarModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

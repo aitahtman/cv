@@ -1,6 +1,6 @@
 .card-education {
     margin: .3rem;
-    width: 80vw;
+    // width: 70vw;
     display: inline-flex;
     flex-flow: column wrap;
 }
@@ -8,4 +8,5 @@
 .example-header-image {
     // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+    background-position: center center;
 }
