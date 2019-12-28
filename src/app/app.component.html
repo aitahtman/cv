@@ -1,0 +1,56 @@
+<!-- The content below is only a placeholder and can be replaced. -->
+<mat-toolbar *ngIf="!openedSidenav">
+
+    <mat-toolbar-row>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <img [src]="store.cvData.profile.photo" alt="cv-photo-ico" class="cv-photo-ico">
+        </button>
+        <mat-menu #menu="matMenu">
+        </mat-menu>
+        <span class="txt-toolbar">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span>
+        <span class="example-spacer"></span>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" [opened]="openedSidenav" class="sidenav" [fixedInViewport]="true">
+        <div fxFlex fxLayout="column" fxLayoutGap="0px" fxLayoutAlign="center center" class="container">
+            <!-- content here -->
+            <div fxLayout=" wrap">
+
+                <div fxFlex="25" fxLayout="column" style="padding: 5px;">
+                    <img [src]="store.cvData.profile.photo" alt="cv-photo" class="cv-photo">
+                </div>
+            </div>
+        </div>
+
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+
+        <!-- ABOUT  -->
+        <div fxLayout="column wrap" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-about></app-about>
+        </div>
+
+        <!-- EXPERIENCES -->
+        <div fxLayout="column wrap" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-experiences></app-experiences>
+        </div>
+
+        <!-- EDUCATION -->
+        <div fxLayout="column wrap" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-education></app-education>
+        </div>
+
+
+        <!-- SKILLS -->
+        <div fxLayout="column wrap" fxLayout.xs="column" fxLayoutAlign="center" class="full-h">
+            <app-skills></app-skills>
+        </div>
+
+
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<router-outlet></router-outlet>
