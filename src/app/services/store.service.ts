@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class StoreService {
 
-  cvData = {}
+  cvData: any = {}
 
   constructor() { }
 }

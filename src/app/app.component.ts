@@ -17,7 +17,7 @@ export class AppComponent {
     private titleService: Title
   ) {
     this.store.cvData = persoData;
-    this.titleService.setTitle('| CV | ' + persoData.profile.lastname);
+    this.titleService.setTitle('| CV | ' + persoData.profile.lastname); 
   }
 
   ngOnInit(e) {
