@@ -1,6 +1,8 @@
 import { Component, HostListener } from '@angular/core';
 import persoData from '../assets/data/perso.json';
 import { StoreService } from "./services/store.service";
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-root',
@@ -10,8 +12,12 @@ import { StoreService } from "./services/store.service";
 export class AppComponent {
   title = 'cv-app';
   openedSidenav = false;
-  constructor(public store: StoreService) {
+  constructor(
+    public store: StoreService,
+    private titleService: Title
+  ) {
     this.store.cvData = persoData;
+    this.titleService.setTitle('| CV | ' + persoData.profile.lastname);
   }
 
   ngOnInit(e) {
