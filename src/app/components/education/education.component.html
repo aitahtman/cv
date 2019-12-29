@@ -8,7 +8,7 @@
             <h1>
                 EDUCATION
             </h1>
-            <mat-card *ngFor="let ex of store.cvData.educations" class="card-education">
+            <mat-card *ngFor="let ex of store.cvData.educations" class="card-education" layout="column" layout-fill>
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image" [style.background-image]="'url(' + ex.picture + ')'"></div>
                     <mat-card-title>{{ex.university}}</mat-card-title>

@@ -9,7 +9,7 @@
             <h1>
                 EXPERIENCES
             </h1>
-            <mat-card *ngFor="let ex of store.cvData.experiences" class="card-experience">
+            <mat-card *ngFor="let ex of store.cvData.experiences" class="card-experience" layout="column" layout-fill> 
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"
                         [style.background-image]="'url(' + ex.picture + ')'">
