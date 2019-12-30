@@ -56,7 +56,7 @@ h2 {
 
 
 .full-h {
-    height: 100vh;
+    min-height: 100vh;
     padding: 2vw;
 }
 
@@ -102,3 +102,16 @@ mat-list-item {
 
 }
 
+
+
+.card-text {
+    -ms-word-break: break-all !important;
+    word-break: break-all !important;
+
+    /* Non standard for WebKit */
+    word-break: break-word !important;
+
+    -webkit-hyphens: auto !important;
+    -moz-hyphens: auto !important;
+    hyphens: auto !important;
+}
