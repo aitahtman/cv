@@ -5,9 +5,9 @@
         "title": "Geomatics engineer",
         "photo": "./assets/img/avataaars.png",
         "city": "Avignon, France",
-        "phone": "+33753318368",
+        "phone": "",
         "mail": "aitahtman.salaheddine@gmail.com",
-        "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems. Now, i'm under a short-term contrat at the French Institute of Agronomic Research (INRA or INRAE) working on UrbaSIMUL project which is a tool dedicated to land prospecting."
+        "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems. Now, i'm under a short-term contract at the French Institute of Agronomic Research (INRA or INRAE) working on UrbaSIMUL project which is a tool dedicated to land prospecting."
     },
     "social": {
         "facebook": {
@@ -38,7 +38,7 @@
             "title": "Intership",
             "period": "MAR 2017 - AUG 2017",
             "description": [
-                "Development of an automated method for the identification of artificial surfacesfrom the VHRS satellite images."
+                "Development of an automated method for the identification of artificial surfaces from the VHRS satellite images."
             ]
         },
         {
@@ -48,7 +48,7 @@
             "title": "Intership",
             "period": "FEB 2016 - AUG 2016",
             "description": [
-                "Implementation of an automated process for the control and verification of the consistency of power grid's data."
+                "Implementation of  a semi-automatic process for the control and verification of the consistency of geographic power grid's data."
             ]
         }
     ],
