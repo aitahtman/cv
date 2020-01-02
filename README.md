@@ -12,7 +12,10 @@ simple personal resume application created by Angular and Github pages.
 
 
 
-## PREVIEW
+## PREVIEW
+
+![preview animation](src/assets/img/respo.gif)
+
 
 ## USAGE
 
@@ -25,7 +28,10 @@ git clone https://github.com/aitahtman/cv.git
 you can also make a fork on your github account. 
 
 #### 2 - installing the dependencies
-```shellhttps://aitahtman.github.io/cvpages
+```shell
+cd cv 
+npm install 
+npm install -g angular-cli-ghpages
 ```
 
 #### 3 - setting your personal data
