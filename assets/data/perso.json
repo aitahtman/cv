@@ -6,19 +6,32 @@
         "photo": "./assets/img/avataaars.png",
         "city": "Avignon, France",
         "phone": "",
-        "mail": "s.aitahtman@gmail.com",
+        "mail": "aitahtman.salaheddine@gmail.com",
         "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems. Now, i'm under a short-term contract at the French Institute of Agronomic Research (INRA or INRAE) working on UrbaSIMUL project which is a tool dedicated to land prospecting."
     },
-    "social": {
-        "facebook": {
-            "name": "@seaitahtman",
-            "link": "https://web.facebook.com/salaheddine.ero"
+    "social": [
+        {
+            "name":"facebook",
+            "link":"https://facebook.com/salaheddine.ero",
+            "icon":["fab","facebook"]
         },
-        "linkedin": {
-            "name": "@seaitahtman",
-            "link": "https://web.facebook.com/salaheddine.ero"
+        {
+            "name":"twitter",
+            "link":"https://twitter.com/AitAhtman",
+            "icon":["fab","twitter"]
+        },
+        {
+            "name":"instagram",
+            "link":"https://www.instagram.com/salaheddine_ait/",
+            "icon":["fab","instagram"]
+        },
+        {
+            "name":"github",
+            "link":"https://github.com/aitahtman/",
+            "icon":["fab","github"]
         }
-    },
+    ]
+    ,
     "experiences": [{
             "company": "INRA",
             "picture": "https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
@@ -92,11 +105,15 @@
         } ,
         {
             "name": "nodejs",
-            "icon":["fab","node"]
+            "icon":["fab","node-js"]
+        } ,
+        {
+            "name": "php",
+            "icon":["fab","php"]
         } ,
         {
             "name": "R",
-            "icon":["fas","registered"]
+            "icon":["fab","r-project"]
         } ,
         {
             "name": "database",
@@ -117,7 +134,21 @@
         {
             "name": "globe",
             "icon":["fas","globe-africa"]
+        } ,
+        {
+            "name": "git",
+            "icon":["fab","git-alt"]
+        } ,
+        {
+            "name": "linux",
+            "icon":["fab","linux"]
+        } ,
+        {
+            "name": "windows",
+            "icon":["fab","windows"]
         } 
+
+
 
 
 ]
