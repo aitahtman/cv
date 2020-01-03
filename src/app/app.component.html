@@ -7,8 +7,15 @@
         </button>
         <mat-menu #menu="matMenu">
         </mat-menu>
-        <span class="txt-toolbar">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span>
-        <span class="example-spacer"></span>
+        <!-- <span class="txt-toolbar">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span> -->
+        <span class="toolbar-spacer"></span>
+        <div class="bottom-right" *ngFor="let item of this.store.cvData.social">
+            <a [href]="item.link" class="social">
+                <fa-icon [icon]="item.icon" class="fa-lg toolbar-icon"> </fa-icon>
+            </a>
+        </div>
+        
+        
 
     </mat-toolbar-row>
 </mat-toolbar>
@@ -57,14 +64,6 @@
             <app-skills></app-skills>
         </div>
 
-        <!--  SOCIAL -->
-        <div *ngIf="!openedSidenav" fxLayout fxLayout.xs="row" fxLayoutGap="1vw" fxLayoutAlign="center center" fxLayoutGap.xs="10vw">
-            <div class="bottom-right" *ngFor="let item of this.store.cvData.social">
-                <a [href]="item.link" class="social">
-                    <fa-icon [icon]="item.icon" class="fa-lg"> </fa-icon>
-                </a>
-            </div>
-        </div>
     </mat-sidenav-content>
 </mat-sidenav-container>
 
