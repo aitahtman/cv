@@ -105,11 +105,15 @@
         } ,
         {
             "name": "nodejs",
-            "icon":["fab","node"]
+            "icon":["fab","node-js"]
+        } ,
+        {
+            "name": "php",
+            "icon":["fab","php"]
         } ,
         {
             "name": "R",
-            "icon":["fas","registered"]
+            "icon":["fab","r-project"]
         } ,
         {
             "name": "database",
@@ -130,7 +134,21 @@
         {
             "name": "globe",
             "icon":["fas","globe-africa"]
+        } ,
+        {
+            "name": "git",
+            "icon":["fab","git-alt"]
+        } ,
+        {
+            "name": "linux",
+            "icon":["fab","linux"]
+        } ,
+        {
+            "name": "windows",
+            "icon":["fab","windows"]
         } 
+
+
 
 
 ]
