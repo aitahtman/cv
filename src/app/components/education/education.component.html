@@ -8,9 +8,10 @@
             <h1>
                 EDUCATION
             </h1>
-            <mat-card *ngFor="let ex of store.cvData.educations" class="card-education card-text">
+            <mat-card *ngFor="let ex of store.cvData.educations" class="card-element card-text">
                 <mat-card-header>
-                    <div mat-card-avatar class="example-header-image" [style.background-image]="'url(' + ex.picture + ')'"></div>
+                    <div mat-card-avatar class="example-header-image"
+                        [style.background-image]="'url(' + ex.picture + ')'"></div>
                     <mat-card-title>{{ex.university}}</mat-card-title>
                     <mat-card-subtitle>
                         {{ex.degree}}
@@ -19,18 +20,17 @@
                 </mat-card-header>
                 <mat-card-content>
 
-                    <mat-list>
-                        <mat-list-item>
-                            {{ex.title}}
-                        </mat-list-item>
-                        <mat-list-item>
-                            <mat-icon aria-hidden="false" aria-label="date icon">date_range</mat-icon>
-                            <span class="text-primary" style="margin-right: 10px;">
-                                {{ex.period}}
-                            </span>
-                            {{ex.city}}
-                        </mat-list-item>
-                    </mat-list>
+                    <p class="p-list"> {{ex.title}}</p>
+                    <p class="p-list">
+                        <mat-icon aria-hidden="false" aria-label="date icon">date_range</mat-icon>
+                        <span class="text-primary" style="margin-right: 10px;">
+                            {{ex.period}}
+                        </span>
+                        {{ex.city}}
+                    </p>
+                    
+
+
 
                 </mat-card-content>
                 <mat-card-actions>
