@@ -96,10 +96,9 @@ h2 {
 }
 
 
-mat-list-item {
+.p-list {
     font-family: "Cairo" !important;
-    // font-size: 0.9rem !important;
-
+    font-size: 1rem !important;
 }
 
 
@@ -114,4 +113,35 @@ mat-list-item {
     -webkit-hyphens: auto !important;
     -moz-hyphens: auto !important;
     hyphens: auto !important;
+}
+
+
+
+
+
+.social {
+    color : rgba(255, 255, 255, .7) !important;
+    
+}
+
+
+.toolbar-spacer{
+    flex: 1 1 auto;
+}
+
+.toolbar-icon {
+    padding: 0 2vw;
+}
+
+
+.card-element {
+    margin: .3rem;
+    // width: 80vw;
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+
+.example-header-image {
+    background-size: cover;
+    background-position: center center;
 }

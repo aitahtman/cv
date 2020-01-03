@@ -56,7 +56,7 @@ for that, you have juste to edited the file _src/assets/data/perso.json_
             "company": "INRA",
             "picture": "https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
-            "title": "Intership",
+            "title": "Internship",
             "period": "MAR 2017 - AUG 2017",
             "description": [
                 "Development of an automated method for the identification of artificial surfaces from the VHRS satellite images."
