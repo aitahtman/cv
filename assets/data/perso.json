@@ -6,33 +6,32 @@
         "photo": "./assets/img/avataaars.png",
         "city": "Avignon, France",
         "phone": "",
-        "mail": "s.aitahtman@gmail.com",
-        "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems. Now, i'm under a short-term contract at the French Institute of Agronomic Research (INRA or INRAE) working on UrbaSIMUL project which is a tool dedicated to land prospecting."
+        "mail": "aitahtman.salaheddine@gmail.com",
+        "summary": "Geomatics developer with more than 3 years of experience in the field of geomatics and geographic information systems. Now, i'm working on TEREVAL project which is a tool dedicated to evaluate territorial policies in terms of land-use planning ."
     },
-    "social": [
-        {
-            "name":"facebook",
-            "link":"https://facebook.com/salaheddine.ero",
-            "icon":["fab","facebook"]
+    "social": {
+        "facebook": {
+            "name": "@seaitahtman",
+            "link": "https://web.facebook.com/salaheddine.ero"
         },
-        {
-            "name":"twitter",
-            "link":"https://twitter.com/AitAhtman",
-            "icon":["fab","twitter"]
-        },
-        {
-            "name":"instagram",
-            "link":"https://www.instagram.com/salaheddine_ait/",
-            "icon":["fab","instagram"]
-        },
-        {
-            "name":"github",
-            "link":"https://github.com/aitahtman/",
-            "icon":["fab","github"]
+        "linkedin": {
+            "name": "@seaitahtman",
+            "link": "https://web.facebook.com/salaheddine.ero"
         }
-    ]
-    ,
-    "experiences": [{
+    },
+    "experiences": [
+        {
+            "company": "SGEvT",
+            "picture": "https://media-exp1.licdn.com/dms/image/C560BAQGRClS0CmuLvA/company-logo_200_200/0?e=2159024400&v=beta&t=gZZTjAs11J7xvLuECcT6ZlVbBre8KvwSZSqaBLfV508",
+            "location": "Avignon, France",
+            "title": "Geomatics engineer",
+            "period": "OCT 2020 - NOW",
+            "description": [
+                "Design and development of  new features around the TEREVAL project.",
+                "Creation of APIs and services for data consumption."
+            ]
+        },
+        {
             "company": "INRA",
             "picture": "https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
@@ -48,7 +47,7 @@
             "company": "INRA",
             "picture": "https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
-            "title": "Internship",
+            "title": "Intership",
             "period": "MAR 2017 - AUG 2017",
             "description": [
                 "Development of an automated method for the identification of artificial surfaces from the VHRS satellite images."
@@ -58,7 +57,7 @@
             "company": "LYDEC",
             "picture": "http://www.brandyourmorocco.ma/wp-content/uploads/2015/09/logo-lydec.png",
             "location": "Casablanca, Morocco",
-            "title": "Internship",
+            "title": "Intership",
             "period": "FEB 2016 - AUG 2016",
             "description": [
                 "Implementation of  a semi-automatic process for the control and verification of the consistency of geographic power grid's data."
@@ -105,15 +104,11 @@
         } ,
         {
             "name": "nodejs",
-            "icon":["fab","node-js"]
-        } ,
-        {
-            "name": "php",
-            "icon":["fab","php"]
+            "icon":["fab","node"]
         } ,
         {
             "name": "R",
-            "icon":["fab","r-project"]
+            "icon":["fas","registered"]
         } ,
         {
             "name": "database",
@@ -134,21 +129,7 @@
         {
             "name": "globe",
             "icon":["fas","globe-africa"]
-        } ,
-        {
-            "name": "git",
-            "icon":["fab","git-alt"]
-        } ,
-        {
-            "name": "linux",
-            "icon":["fab","linux"]
-        } ,
-        {
-            "name": "windows",
-            "icon":["fab","windows"]
         } 
-
-
 
 
 ]
