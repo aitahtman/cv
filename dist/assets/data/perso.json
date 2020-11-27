@@ -4,11 +4,10 @@
         "lastname": " AIT AHTMAN ",
         "title": "Geomatics engineer",
         "photo": "./assets/img/avataaars.png",
-        "city": "Avignon, France",
+        "city": "Toulouse, France",
         "phone": "",
         "mail": "s.aitahtman@gmail.com",
-        "summary": "Geomatics developer with more than 2 years of experience in the field of geomatics and geographic information systems. Now, i'm under a short-term contract at the French Institute of Agronomic Research (INRA or INRAE) working on UrbaSIMUL project which is a tool dedicated to land prospecting."
-    },
+        "summary": "Geomatics developer with more than 3 years of experience in the field of geomatics and geographic information systems. Now, i'm working with SGEvT on TEREVAL project which is a tool dedicated to evaluate territorial policies in terms of land-use planning."    },
     "social": [
         {
             "name":"facebook",
@@ -32,7 +31,18 @@
         }
     ]
     ,
-    "experiences": [{
+    "experiences": [
+        {
+            "company": "SGEvT",
+            "picture": "https://media-exp1.licdn.com/dms/image/C560BAQGRClS0CmuLvA/company-logo_200_200/0?e=2159024400&v=beta&t=gZZTjAs11J7xvLuECcT6ZlVbBre8KvwSZSqaBLfV508",
+            "location": "Avignon, France",
+            "title": "Geomatics engineer",
+            "period": "OCT 2020 - NOW",
+            "description": [
+                "Design and development of  new features around the TEREVAL project.",
+                "Creation of APIs and services for data consumption."
+            ]
+        },{
             "company": "INRA",
             "picture": "https://pbs.twimg.com/media/EG2Q85EXYAY3OhC.png",
             "location": "Avignon, France",
